@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy — Stip</title>
+  <style>
+    :root {
+      --paper: #f7f3ec;
+      --ink: #1c1c1c;
+      --muted: #5a5a5a;
+      --rule: #e5e0d6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --paper: #1c1c1c;
+        --ink: #f7f3ec;
+        --muted: #a8a8a8;
+        --rule: #333;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin: 0 0 0.5rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: 2.5rem 0 0.75rem;
+    }
+    p, ul {
+      margin: 0 0 1rem;
+    }
+    ul {
+      padding-left: 1.25rem;
+    }
+    li {
+      margin-bottom: 0.25rem;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--rule);
+    }
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 0.15em;
+    }
+    code {
+      font-family: ui-monospace, "SF Mono", Menlo, monospace;
+      font-size: 0.9em;
+      background: var(--rule);
+      padding: 0.1em 0.35em;
+      border-radius: 0.25em;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Privacyverklaring — Stip</h1>
+  <p class="meta">
+    Laatst bijgewerkt: 6 mei 2026<br>
+    Geldt voor: Stip Dagboek (iOS), versie 1.0.0 en later.
+  </p>
+
+  <p>
+    Stip is gebouwd om bij je te passen, niet andersom. Hier lees je wat we
+    wel en niet doen met je gegevens. In gewone taal.
+  </p>
+
+  <h2>Wie is verantwoordelijk?</h2>
+  <p>
+    Stip wordt gemaakt door René Geerlings, een onafhankelijke ontwikkelaar
+    in Nederland. Voor vragen of verzoeken over je privacy mail je naar
+    <a href="mailto:rene.geerlings@icloud.com">rene.geerlings@icloud.com</a>.
+  </p>
+
+  <h2>Welke gegevens slaat Stip op?</h2>
+  <p>
+    Stip slaat alleen op wat je zelf invult:
+  </p>
+  <ul>
+    <li>De positie van je stip (rustig of vol, licht of zwaar)</li>
+    <li>Welke activiteiten je hebt aangevinkt</li>
+    <li>Een korte notitie, als je die toevoegt</li>
+    <li>De datum en het tijdstip van de invoer</li>
+    <li>Je voorkeuren binnen de app (zoals herinneringen of biometrisch slot)</li>
+  </ul>
+  <p>
+    Stip vraagt geen naam, e-mailadres of telefoonnummer. Er is geen account
+    en geen inlogpagina.
+  </p>
+
+  <h2>Waar staan je gegevens?</h2>
+  <p>
+    Standaard staan al je gegevens alleen op jouw iPhone. In een database die
+    bij iOS hoort. Wij hebben geen server. Niemand anders kan meelezen.
+  </p>
+  <p>
+    iOS versleutelt deze database met de instelling
+    <em>Complete Until First User Authentication</em>: na een herstart blijft
+    de inhoud onleesbaar tot jij je toestel ontgrendelt.
+  </p>
+
+  <h2>Wat als ik iCloud-sync aanzet?</h2>
+  <p>
+    Sync is uit als standaard. Als jij hem in Instellingen aanzet, gaat een
+    kopie van je dagboek via Apple's CloudKit naar jouw iCloud-account. Zo
+    zie je dezelfde gegevens op je iPad of Mac met dezelfde Apple-ID.
+  </p>
+  <p>
+    Op de servers van Apple staan je gegevens versleuteld onder jouw
+    Apple-account. Wij hebben daar geen toegang toe. Apple zelf heeft die
+    toegang in beperkte vorm — net zoals bij je foto's of notities in iCloud.
+    Lees Apple's eigen privacybeleid voor de details:
+    <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com/legal/privacy</a>.
+  </p>
+
+  <h2>Wat doet Stip nooit?</h2>
+  <ul>
+    <li>We sturen geen analytics-data, ook geen geanonimiseerde.</li>
+    <li>We tonen geen advertenties.</li>
+    <li>We koppelen je gegevens niet aan andere apps of profielen.</li>
+    <li>We verkopen of delen je gegevens niet met derden.</li>
+    <li>We trainen geen AI-modellen op je dagboek.</li>
+  </ul>
+
+  <h2>Bijzondere persoonsgegevens</h2>
+  <p>
+    Gegevens over hoe je dag voelde of welke symptomen je had vallen onder
+    bijzondere persoonsgegevens (AVG, artikel 9). Daarom:
+  </p>
+  <ul>
+    <li>Vraagt Stip bij de eerste start expliciet om toestemming.</li>
+    <li>Bewaren we je gegevens alleen op jouw apparaat (en, als je dat zelf
+      aanzet, in jouw iCloud-account).</li>
+    <li>Is iCloud-sync standaard uitgeschakeld.</li>
+  </ul>
+
+  <h2>Welke crash-rapporten ontvangen we?</h2>
+  <p>
+    Als Stip crasht, kan iOS automatisch een crash-rapport sturen via
+    Apple's TestFlight of App Store Connect. Daarin staan technische details
+    (regelnummer, type fout, toestelmodel). Daar staat <strong>geen</strong>
+    inhoud van je dagboek in. Je kunt deze rapporten uitschakelen in
+    iOS-Instellingen onder Privacy &amp; Beveiliging → Analyse en
+    verbeteringen.
+  </p>
+
+  <h2>Je rechten onder de AVG</h2>
+  <p>
+    Je hebt recht op inzage, wijziging en verwijdering van je gegevens.
+    Omdat alles op jouw toestel staat:
+  </p>
+  <ul>
+    <li><strong>Inzage:</strong> open de app — alles is zichtbaar.</li>
+    <li><strong>Wijziging:</strong> tik op een dag en pas 'm aan.</li>
+    <li><strong>Export:</strong> via Instellingen kun je een PDF van je
+      dagboek maken.</li>
+    <li><strong>Verwijdering:</strong> verwijder de app van je iPhone. Alle
+      lokale gegevens zijn dan weg. Als je iCloud-sync gebruikte: verwijder
+      ook de gegevens via iOS-Instellingen → Apple-ID → iCloud → Stip.</li>
+  </ul>
+
+  <h2>Klachten</h2>
+  <p>
+    Heb je een klacht over hoe Stip met je gegevens omgaat? Mail eerst even
+    naar <a href="mailto:rene.geerlings@icloud.com">rene.geerlings@icloud.com</a> —
+    dan kunnen we het waarschijnlijk snel oplossen. Je hebt ook altijd het
+    recht een klacht in te dienen bij de
+    <a href="https://autoriteitpersoonsgegevens.nl" target="_blank" rel="noopener">Autoriteit Persoonsgegevens</a>.
+  </p>
+
+  <h2>Wijzigingen aan deze verklaring</h2>
+  <p>
+    Als we deze tekst wijzigen, staat dat bovenaan onder "Laatst bijgewerkt".
+    Bij grote wijzigingen vragen we in de app opnieuw om je toestemming.
+  </p>
+</main>
+</body>
+</html>
